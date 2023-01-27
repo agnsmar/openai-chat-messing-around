@@ -1,0 +1,21 @@
+{
+  "name": "openai-chat-messing-around",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node prompt.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wernersson/openai-chat-messing-around.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wernersson/openai-chat-messing-around/issues"
+  },
+  "homepage": "https://github.com/wernersson/openai-chat-messing-around#readme"
+}
