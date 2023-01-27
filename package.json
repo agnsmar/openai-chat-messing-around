@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/wernersson/openai-chat-messing-around/issues"
   },
-  "homepage": "https://github.com/wernersson/openai-chat-messing-around#readme"
+  "homepage": "https://github.com/wernersson/openai-chat-messing-around#readme",
+  "dependencies": {
+    "openai": "^3.1.0"
+  }
 }
