@@ -1,4 +1,4 @@
-import { Configuration, OpenAIApi } from "openai";
+import { Configuration, OpenAIApi } from "openai"
 import prompt from "prompt"
 import * as dotenv from 'dotenv'
 
@@ -7,10 +7,14 @@ dotenv.config()
 const configuration = new Configuration({
   apiKey: process.env.OPENAI_API_KEY,
 })
-const openai = new OpenAIApi(configuration);
+const openai = new OpenAIApi(configuration)
 
+// 0. Training/Fine-tuning ($)
+// 1. Priming
+// 2. History
+// 3. Prompt
 const chat = `
-As an advanced chatbot, your primary goal is to assist users to the best of your ability. This may involve answering questions, providing helpful information, or completing tasks based on user input. In order to effectively assist users, it is important to be detailed and thorough in your responses. Use examples and evidence to support your points and justify your recommendations or solutions.
+As an advanced chatbot, your primary goal is to assist users to the best of your ability. This may involve answering questions, providing helpful information, or completing tasks based on user input. In order to effectively assist users, it is important to be detailed and thorough in your responses. Use examples and evidence to support your points and justify your recommendations or solutions. Make very sure to end each phrase with "cool beans, daddio", or something equally lame.
 
 <history>
 
